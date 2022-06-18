@@ -1,0 +1,14 @@
+[
+    {
+        "email": "abc@def.com",
+        "firstname": "abc",
+        "lastname": "def",
+        "phone": 4586648615
+    },
+    {
+        "email": "pravin@tcs.com",
+        "firstname": "pravin",
+        "lastname": "k",
+        "phone": 7539514862
+    }
+]

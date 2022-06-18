@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("include/scripts", {title: "TCS Mean Project"}) %>
+</head>
+<body>
+    <%- include("include/header") %>
+    <div class="container">
+        <div class="row">
+            <div class="col-12"><div class="bd-example">
+                <table class="table">
+                    <thead>
+                  <tr>
+                    <th scope="col">Firstname</th>
+                    <th scope="col">Lastname</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Phone</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <% for(let i=0; i < people.length; i++){ %>
+                        <tr>
+                            <th scope="row"><%= people[i].firstname %></th>
+                            <th scope="row"><%= people[i].lastname %></th>
+                            <th scope="row"><%= people[i].phone %></th>
+                            <th scope="row"><%= people[i].email %></th>
+                          </tr>
+                    <% } %>
+                  
+                </tbody>
+              
+                </table></div>
+        </div>
+    </div>
+      </div>
+</body>
+</html>
